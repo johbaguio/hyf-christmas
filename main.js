@@ -59,5 +59,10 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
+// document.getElementsByTagName('body').addEventListener('onload',function(){
+//   let song = new Audio('all-i-want-for-christmas.mp3');
+//   song.play();
+// });
+
 // let song = new Audio('all-i-want-for-christmas.mp3');
 // song.play();
