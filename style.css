@@ -7,20 +7,20 @@
   body {
     display: flex;
     background-image: url(images/xmas.jpg);
-    background-size: 100%;
+    background-size: cover;
   }
   
   .memory-game {
-    width: 580px;
-    height: 260px;
-    margin: 200px 8px 0 8px;
+    width: 240px;
+    height: 560px;
+    margin: 30% auto;
     display: flex;
     flex-wrap: wrap;
   }
   
   .memory-card {
-    flex:22%;
-    margin: 5px;
+    flex:40%;
+    margin: 10px;
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -55,7 +55,7 @@
 
   .hyf-logo{
       position: absolute;
-      margin:60px 10px;
+      margin:40px auto;
   }
 
   .christmas-tree{
@@ -79,14 +79,23 @@
     }
 
     .memory-game {
-      width: 658px;
-      height: 410px;
+      width: 750px;
+      height: 500px;
       margin: 150px auto;
     }
 
+  
+  
+    .memory-card {
+      flex:20%;
+  
+
+    }
+    
+
     .hyf-logo{
       position: absolute;
-      margin:30px 50px;
+      margin:30px auto;
     }
 
     .front-face,
